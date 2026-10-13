@@ -1,0 +1,115 @@
+{
+ "mapa": {
+  "linhas": 40,
+  "colunas": 60,
+  "celula_m": 0.5,
+  "livres": 445,
+  "tatil": 97,
+  "obstaculos": 24
+ },
+ "custos": {
+  "tatil": 0.7,
+  "comum": 1.0,
+  "margem": 0.5,
+  "curva": 0.3
+ },
+ "n_rotas": 30,
+ "resumo": {
+  "UCS": {
+   "expandidos_medio": 1262.1,
+   "expandidos_max": 1743,
+   "t_medio_ms": 8.60826000959302,
+   "custo_medio": 27.599999999999984,
+   "excesso_medio_pct": 0.0,
+   "excesso_max_pct": 0.0,
+   "rotas_otimas": 30,
+   "comprimento_medio_m": 17.966666666666665,
+   "curvas_medias": 2.7666666666666666,
+   "frac_tatil_media": 0.9278597057964079
+  },
+  "A*": {
+   "expandidos_medio": 306.7,
+   "expandidos_max": 581,
+   "t_medio_ms": 2.043836680240929,
+   "custo_medio": 27.599999999999984,
+   "excesso_medio_pct": 0.0,
+   "excesso_max_pct": 0.0,
+   "rotas_otimas": 30,
+   "comprimento_medio_m": 17.966666666666665,
+   "curvas_medias": 2.7666666666666666,
+   "frac_tatil_media": 0.9278597057964079
+  },
+  "A* ponderado (w=2)": {
+   "expandidos_medio": 49.6,
+   "expandidos_max": 109,
+   "t_medio_ms": 0.4614833354329069,
+   "custo_medio": 33.75333333333333,
+   "excesso_medio_pct": 20.341395553760147,
+   "excesso_max_pct": 39.51367781155024,
+   "rotas_otimas": 5,
+   "comprimento_medio_m": 17.4,
+   "curvas_medias": 2.4,
+   "frac_tatil_media": 0.29745368435927066
+  },
+  "Gulosa": {
+   "expandidos_medio": 42.2,
+   "expandidos_max": 67,
+   "t_medio_ms": 0.37591999474292,
+   "custo_medio": 36.766666666666666,
+   "excesso_medio_pct": 30.435859450834844,
+   "excesso_max_pct": 66.06060606060615,
+   "rotas_otimas": 3,
+   "comprimento_medio_m": 17.6,
+   "curvas_medias": 2.7666666666666666,
+   "frac_tatil_media": 0.22297296310206313
+  },
+  "A* sem preferência pelo piso tátil": {
+   "comprimento_m": 17.333333333333332,
+   "curvas": 2.3,
+   "frac_tatil": 0.3719677750850894,
+   "expandidos": 655.0666666666667
+  }
+ },
+ "exemplo": {
+  "rota": "entrada -> elevador",
+  "custo": 37.699999999999996,
+  "expandidos": 571,
+  "metricas": {
+   "comprimento_m": 25.0,
+   "curvas": 4,
+   "frac_tatil": 1.0
+  },
+  "instrucoes": [
+   "vire à direita",
+   "siga em frente 0,5 m pelo piso tátil",
+   "vire à esquerda",
+   "siga em frente 14,5 m pelo piso tátil; você passa por sala 101 (à sua esquerda), sala 103 (à sua direita)",
+   "vire à esquerda",
+   "siga em frente 9,5 m pelo piso tátil, até elevador (à frente); você passa por sala 105 (à sua esquerda)",
+   "vire à esquerda",
+   "siga em frente 0,5 m pelo piso tátil; você chegou: elevador"
+  ],
+  "gulosa": {
+   "custo": 47.7,
+   "expandidos": 49,
+   "metricas": {
+    "comprimento_m": 23.0,
+    "curvas": 1,
+    "frac_tatil": 0.043478260869565216
+   },
+   "instrucoes": [
+    "siga em frente 14 m; você passa por sala 101 (à sua esquerda), sala 103 (à sua direita)",
+    "vire à esquerda",
+    "siga em frente 9 m até o piso tátil; você chegou: elevador; você passa por sala 105 (à sua esquerda)"
+   ]
+  },
+  "sem_tatil": {
+   "custo": 48.3,
+   "metricas": {
+    "comprimento_m": 23.0,
+    "curvas": 1,
+    "frac_tatil": 0.043478260869565216
+   }
+  }
+ }
+}

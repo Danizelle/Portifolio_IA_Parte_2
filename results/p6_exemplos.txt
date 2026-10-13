@@ -1,0 +1,461 @@
+=== Cenário C01 (completo; exemplo do enunciado) ===
+Você informou: aquarela e pincel; papel próprio para aquarela; deseja transparência.
+SUGESTÃO
+  • Lavagens (aguadas) de aquarela
+    Justificativa: os materiais necessários estão disponíveis (aquarela e pincel), o suporte foi considerado compatível (papel próprio para aquarela) e a técnica atende ao efeito desejado (transparência).
+    Cadeia de inferência:
+      R001: aquarela disponível + pincel disponível → materiais de «lavagens» disponíveis
+      R002: suporte: papel próprio para aquarela → suporte adequado a «lavagens»
+      R003: materiais de «lavagens» disponíveis + suporte adequado a «lavagens» → «lavagens» viável
+      R005: deseja transparência → efeito transparência atendido
+      R009: todos os efeitos pedidos atendidos → «lavagens» atende aos efeitos
+      R010: «lavagens» viável + «lavagens» atende aos efeitos → «lavagens» adequada
+      R011: sem preferência de cor → preferência de cor atendida
+      R014: aceita técnica única → preferência de combinação atendida
+      R015: «lavagens» adequada + preferência de cor atendida + preferência de combinação atendida → «lavagens» RECOMENDADA
+  • Aquarela molhado sobre molhado
+    Justificativa: os materiais necessários estão disponíveis (aquarela e pincel), o suporte foi considerado compatível (papel próprio para aquarela) e a técnica atende ao efeito desejado (transparência).
+    Cadeia de inferência:
+      R016: aquarela disponível + pincel disponível → materiais de «molhado sobre molhado» disponíveis
+      R017: suporte: papel próprio para aquarela → suporte adequado a «molhado sobre molhado»
+      R018: materiais de «molhado sobre molhado» disponíveis + suporte adequado a «molhado sobre molhado» → «molhado sobre molhado» viável
+      R020: deseja transparência → efeito transparência atendido
+      R025: todos os efeitos pedidos atendidos → «molhado sobre molhado» atende aos efeitos
+      R026: «molhado sobre molhado» viável + «molhado sobre molhado» atende aos efeitos → «molhado sobre molhado» adequada
+      R027: sem preferência de cor → preferência de cor atendida
+      R030: aceita técnica única → preferência de combinação atendida
+      R031: «molhado sobre molhado» adequada + preferência de cor atendida + preferência de combinação atendida → «molhado sobre molhado» RECOMENDADA
+ALTERNATIVAS (exigem material adicional)
+  • Veladuras com acrílica — falta: tinta acrílica e médium acrílico
+  • Técnica mista: aquarela sobre desenho a lápis — falta: lápis grafite
+INCOMPATÍVEIS com as condições informadas
+  • Desenho de linha e hachura a grafite — não produz transparência (produz: linhas detalhadas)
+  • Esfumado a carvão — não produz transparência (produz: esfumado)
+  • Desenho a nanquim com bico de pena — não produz transparência (produz: linhas detalhadas)
+  • Pintura acrílica em camadas opacas — não produz transparência (produz: cobertura opaca)
+[68 regras disparadas de 127]
+
+=== Cenário C02 (completo) ===
+Você informou: lápis grafite; papel de desenho; deseja linhas detalhadas.
+SUGESTÃO
+  • Desenho de linha e hachura a grafite
+    Justificativa: os materiais necessários estão disponíveis (lápis grafite), o suporte foi considerado compatível (papel de desenho) e a técnica atende ao efeito desejado (linhas detalhadas).
+ALTERNATIVAS (exigem material adicional)
+  • Desenho a nanquim com bico de pena — falta: nanquim e bico de pena
+INCOMPATÍVEIS com as condições informadas
+  • Lavagens (aguadas) de aquarela — não produz linhas detalhadas (produz: transparência); suporte inadequado (papel de desenho: papel fino de desenho enruga e ondula com a água das aguadas)
+  • Aquarela molhado sobre molhado — não produz linhas detalhadas (produz: esfumado, transparência); suporte inadequado (papel de desenho: papel fino de desenho se desfaz ou ondula quando encharcado)
+  • Esfumado a carvão — não produz linhas detalhadas (produz: esfumado)
+  • Pintura acrílica em camadas opacas — não produz linhas detalhadas (produz: cobertura opaca); suporte inadequado (papel de desenho: papel fino ondula e a camada espessa de tinta deforma o suporte)
+  • Veladuras com acrílica — não produz linhas detalhadas (produz: transparência); suporte inadequado (papel de desenho: papel fino ondula com as camadas úmidas de tinta)
+  • Técnica mista: aquarela sobre desenho a lápis — suporte inadequado (papel de desenho: papel fino de desenho enruga com as aguadas)
+[57 regras disparadas de 127]
+
+=== Cenário C03 (completo) ===
+Você informou: carvão; papel de desenho; deseja esfumado; prefere monocromático.
+SUGESTÃO
+  • Esfumado a carvão
+    Justificativa: os materiais necessários estão disponíveis (carvão), o suporte foi considerado compatível (papel de desenho) e a técnica atende ao efeito desejado (esfumado).
+INCOMPATÍVEIS com as condições informadas
+  • Lavagens (aguadas) de aquarela — não produz esfumado (produz: transparência); suporte inadequado (papel de desenho: papel fino de desenho enruga e ondula com a água das aguadas)
+  • Aquarela molhado sobre molhado — suporte inadequado (papel de desenho: papel fino de desenho se desfaz ou ondula quando encharcado)
+  • Desenho de linha e hachura a grafite — não produz esfumado (produz: linhas detalhadas)
+  • Desenho a nanquim com bico de pena — não produz esfumado (produz: linhas detalhadas)
+  • Pintura acrílica em camadas opacas — não produz esfumado (produz: cobertura opaca); suporte inadequado (papel de desenho: papel fino ondula e a camada espessa de tinta deforma o suporte)
+  • Veladuras com acrílica — não produz esfumado (produz: transparência); suporte inadequado (papel de desenho: papel fino ondula com as camadas úmidas de tinta)
+  • Técnica mista: aquarela sobre desenho a lápis — é colorido, e você prefere monocromático; não produz esfumado (produz: transparência, linhas detalhadas); suporte inadequado (papel de desenho: papel fino de desenho enruga com as aguadas)
+[54 regras disparadas de 127]
+
+=== Cenário C04 (completo) ===
+Você informou: tinta acrílica e pincel; tela preparada; deseja cobertura opaca.
+SUGESTÃO
+  • Pintura acrílica em camadas opacas
+    Justificativa: os materiais necessários estão disponíveis (tinta acrílica e pincel), o suporte foi considerado compatível (tela preparada) e a técnica atende ao efeito desejado (cobertura opaca).
+INCOMPATÍVEIS com as condições informadas
+  • Lavagens (aguadas) de aquarela — não produz cobertura opaca (produz: transparência); suporte inadequado (tela preparada: a base acrílica da tela não absorve a aquarela, que escorre e não fixa)
+  • Aquarela molhado sobre molhado — não produz cobertura opaca (produz: esfumado, transparência); suporte inadequado (tela preparada: a base acrílica da tela não absorve a aquarela)
+  • Desenho de linha e hachura a grafite — não produz cobertura opaca (produz: linhas detalhadas); suporte inadequado (tela preparada: na tela o grafite serve só de esboço: borra, brilha e não tem fixação)
+  • Esfumado a carvão — não produz cobertura opaca (produz: esfumado); suporte inadequado (tela preparada: na tela o carvão serve só de esboço sob a pintura; solta sem fixação)
+  • Desenho a nanquim com bico de pena — não produz cobertura opaca (produz: linhas detalhadas); suporte inadequado (tela preparada: a trama da tela impede o traço fino da pena)
+  • Veladuras com acrílica — não produz cobertura opaca (produz: transparência)
+  • Técnica mista: aquarela sobre desenho a lápis — não produz cobertura opaca (produz: transparência, linhas detalhadas); suporte inadequado (tela preparada: a base acrílica da tela não absorve a aquarela)
+[49 regras disparadas de 127]
+
+=== Cenário C05 (completo) ===
+Você informou: tinta acrílica, pincel e médium acrílico; tela preparada; deseja transparência.
+SUGESTÃO
+  • Veladuras com acrílica
+    Justificativa: os materiais necessários estão disponíveis (tinta acrílica, pincel e médium acrílico), o suporte foi considerado compatível (tela preparada) e a técnica atende ao efeito desejado (transparência).
+INCOMPATÍVEIS com as condições informadas
+  • Lavagens (aguadas) de aquarela — suporte inadequado (tela preparada: a base acrílica da tela não absorve a aquarela, que escorre e não fixa)
+  • Aquarela molhado sobre molhado — suporte inadequado (tela preparada: a base acrílica da tela não absorve a aquarela)
+  • Desenho de linha e hachura a grafite — não produz transparência (produz: linhas detalhadas); suporte inadequado (tela preparada: na tela o grafite serve só de esboço: borra, brilha e não tem fixação)
+  • Esfumado a carvão — não produz transparência (produz: esfumado); suporte inadequado (tela preparada: na tela o carvão serve só de esboço sob a pintura; solta sem fixação)
+  • Desenho a nanquim com bico de pena — não produz transparência (produz: linhas detalhadas); suporte inadequado (tela preparada: a trama da tela impede o traço fino da pena)
+  • Pintura acrílica em camadas opacas — não produz transparência (produz: cobertura opaca)
+  • Técnica mista: aquarela sobre desenho a lápis — suporte inadequado (tela preparada: a base acrílica da tela não absorve a aquarela)
+[57 regras disparadas de 127]
+
+=== Cenário C06 (completo) ===
+Você informou: aquarela, pincel e lápis grafite; papel próprio para aquarela; deseja transparência e linhas detalhadas; quer combinar técnicas.
+SUGESTÃO
+  • Técnica mista: aquarela sobre desenho a lápis
+    Justificativa: os materiais necessários estão disponíveis (aquarela, pincel e lápis grafite), o suporte foi considerado compatível (papel próprio para aquarela) e a técnica atende ao efeito desejado (transparência e linhas detalhadas).
+INCOMPATÍVEIS com as condições informadas
+  • Lavagens (aguadas) de aquarela — você pediu combinação de técnicas e esta usa uma só; não produz linhas detalhadas (produz: transparência)
+  • Aquarela molhado sobre molhado — você pediu combinação de técnicas e esta usa uma só; não produz linhas detalhadas (produz: esfumado, transparência)
+  • Desenho de linha e hachura a grafite — você pediu combinação de técnicas e esta usa uma só; não produz transparência (produz: linhas detalhadas)
+  • Esfumado a carvão — você pediu combinação de técnicas e esta usa uma só; não produz linhas detalhadas (produz: esfumado); não produz transparência (produz: esfumado)
+  • Desenho a nanquim com bico de pena — você pediu combinação de técnicas e esta usa uma só; não produz transparência (produz: linhas detalhadas)
+  • Pintura acrílica em camadas opacas — você pediu combinação de técnicas e esta usa uma só; não produz linhas detalhadas (produz: cobertura opaca); não produz transparência (produz: cobertura opaca)
+  • Veladuras com acrílica — você pediu combinação de técnicas e esta usa uma só; não produz linhas detalhadas (produz: transparência)
+[54 regras disparadas de 127]
+
+=== Cenário C07 (completo) ===
+Você informou: nanquim, bico de pena e lápis grafite; papel de desenho; deseja linhas detalhadas; prefere monocromático.
+SUGESTÃO
+  • Desenho de linha e hachura a grafite
+    Justificativa: os materiais necessários estão disponíveis (lápis grafite), o suporte foi considerado compatível (papel de desenho) e a técnica atende ao efeito desejado (linhas detalhadas).
+  • Desenho a nanquim com bico de pena
+    Justificativa: os materiais necessários estão disponíveis (nanquim e bico de pena), o suporte foi considerado compatível (papel de desenho) e a técnica atende ao efeito desejado (linhas detalhadas).
+INCOMPATÍVEIS com as condições informadas
+  • Lavagens (aguadas) de aquarela — não produz linhas detalhadas (produz: transparência); suporte inadequado (papel de desenho: papel fino de desenho enruga e ondula com a água das aguadas)
+  • Aquarela molhado sobre molhado — não produz linhas detalhadas (produz: esfumado, transparência); suporte inadequado (papel de desenho: papel fino de desenho se desfaz ou ondula quando encharcado)
+  • Esfumado a carvão — não produz linhas detalhadas (produz: esfumado)
+  • Pintura acrílica em camadas opacas — não produz linhas detalhadas (produz: cobertura opaca); suporte inadequado (papel de desenho: papel fino ondula e a camada espessa de tinta deforma o suporte)
+  • Veladuras com acrílica — não produz linhas detalhadas (produz: transparência); suporte inadequado (papel de desenho: papel fino ondula com as camadas úmidas de tinta)
+  • Técnica mista: aquarela sobre desenho a lápis — é colorido, e você prefere monocromático; suporte inadequado (papel de desenho: papel fino de desenho enruga com as aguadas)
+[60 regras disparadas de 127]
+
+=== Cenário C08 (completo) ===
+Você informou: aquarela e pincel; papel próprio para aquarela; deseja esfumado.
+SUGESTÃO
+  • Aquarela molhado sobre molhado
+    Justificativa: os materiais necessários estão disponíveis (aquarela e pincel), o suporte foi considerado compatível (papel próprio para aquarela) e a técnica atende ao efeito desejado (esfumado).
+ALTERNATIVAS (exigem material adicional)
+  • Esfumado a carvão — falta: carvão
+INCOMPATÍVEIS com as condições informadas
+  • Lavagens (aguadas) de aquarela — não produz esfumado (produz: transparência)
+  • Desenho de linha e hachura a grafite — não produz esfumado (produz: linhas detalhadas)
+  • Desenho a nanquim com bico de pena — não produz esfumado (produz: linhas detalhadas)
+  • Pintura acrílica em camadas opacas — não produz esfumado (produz: cobertura opaca)
+  • Veladuras com acrílica — não produz esfumado (produz: transparência)
+  • Técnica mista: aquarela sobre desenho a lápis — não produz esfumado (produz: transparência, linhas detalhadas)
+[62 regras disparadas de 127]
+
+=== Cenário C09 (completo) ===
+Você informou: tinta acrílica e pincel; papel próprio para aquarela; deseja cobertura opaca; prefere colorido.
+SUGESTÃO
+  • Pintura acrílica em camadas opacas
+    Justificativa: os materiais necessários estão disponíveis (tinta acrílica e pincel), o suporte foi considerado compatível (papel próprio para aquarela) e a técnica atende ao efeito desejado (cobertura opaca).
+INCOMPATÍVEIS com as condições informadas
+  • Lavagens (aguadas) de aquarela — não produz cobertura opaca (produz: transparência)
+  • Aquarela molhado sobre molhado — não produz cobertura opaca (produz: esfumado, transparência)
+  • Desenho de linha e hachura a grafite — é monocromático, e você prefere colorido; não produz cobertura opaca (produz: linhas detalhadas)
+  • Esfumado a carvão — é monocromático, e você prefere colorido; não produz cobertura opaca (produz: esfumado)
+  • Desenho a nanquim com bico de pena — é monocromático, e você prefere colorido; não produz cobertura opaca (produz: linhas detalhadas)
+  • Veladuras com acrílica — não produz cobertura opaca (produz: transparência)
+  • Técnica mista: aquarela sobre desenho a lápis — não produz cobertura opaca (produz: transparência, linhas detalhadas)
+[55 regras disparadas de 127]
+
+=== Cenário C10 (completo) ===
+Você informou: aquarela e pincel; papel próprio para aquarela; deseja transparência; prefere monocromático.
+SUGESTÃO
+  • Lavagens (aguadas) de aquarela
+    Justificativa: os materiais necessários estão disponíveis (aquarela e pincel), o suporte foi considerado compatível (papel próprio para aquarela) e a técnica atende ao efeito desejado (transparência).
+  • Aquarela molhado sobre molhado
+    Justificativa: os materiais necessários estão disponíveis (aquarela e pincel), o suporte foi considerado compatível (papel próprio para aquarela) e a técnica atende ao efeito desejado (transparência).
+ALTERNATIVAS (exigem material adicional)
+  • Veladuras com acrílica — falta: tinta acrílica e médium acrílico
+INCOMPATÍVEIS com as condições informadas
+  • Desenho de linha e hachura a grafite — não produz transparência (produz: linhas detalhadas)
+  • Esfumado a carvão — não produz transparência (produz: esfumado)
+  • Desenho a nanquim com bico de pena — não produz transparência (produz: linhas detalhadas)
+  • Pintura acrílica em camadas opacas — não produz transparência (produz: cobertura opaca)
+  • Técnica mista: aquarela sobre desenho a lápis — é colorido, e você prefere monocromático
+[67 regras disparadas de 127]
+
+=== Cenário C11 (materiais faltantes) ===
+Você informou: pincel; papel próprio para aquarela; deseja transparência.
+ALTERNATIVAS (exigem material adicional)
+  • Lavagens (aguadas) de aquarela — falta: aquarela
+  • Aquarela molhado sobre molhado — falta: aquarela
+  • Veladuras com acrílica — falta: tinta acrílica e médium acrílico
+  • Técnica mista: aquarela sobre desenho a lápis — falta: aquarela e lápis grafite
+INCOMPATÍVEIS com as condições informadas
+  • Desenho de linha e hachura a grafite — não produz transparência (produz: linhas detalhadas)
+  • Esfumado a carvão — não produz transparência (produz: esfumado)
+  • Desenho a nanquim com bico de pena — não produz transparência (produz: linhas detalhadas)
+  • Pintura acrílica em camadas opacas — não produz transparência (produz: cobertura opaca)
+[60 regras disparadas de 127]
+
+=== Cenário C12 (materiais faltantes) ===
+Você informou: tinta acrílica e pincel; tela preparada; deseja transparência.
+ALTERNATIVAS (exigem material adicional)
+  • Veladuras com acrílica — falta: médium acrílico
+INCOMPATÍVEIS com as condições informadas
+  • Lavagens (aguadas) de aquarela — suporte inadequado (tela preparada: a base acrílica da tela não absorve a aquarela, que escorre e não fixa)
+  • Aquarela molhado sobre molhado — suporte inadequado (tela preparada: a base acrílica da tela não absorve a aquarela)
+  • Desenho de linha e hachura a grafite — não produz transparência (produz: linhas detalhadas); suporte inadequado (tela preparada: na tela o grafite serve só de esboço: borra, brilha e não tem fixação)
+  • Esfumado a carvão — não produz transparência (produz: esfumado); suporte inadequado (tela preparada: na tela o carvão serve só de esboço sob a pintura; solta sem fixação)
+  • Desenho a nanquim com bico de pena — não produz transparência (produz: linhas detalhadas); suporte inadequado (tela preparada: a trama da tela impede o traço fino da pena)
+  • Pintura acrílica em camadas opacas — não produz transparência (produz: cobertura opaca)
+  • Técnica mista: aquarela sobre desenho a lápis — suporte inadequado (tela preparada: a base acrílica da tela não absorve a aquarela)
+[53 regras disparadas de 127]
+
+=== Cenário C13 (materiais faltantes) ===
+Você informou: lápis grafite; papel de desenho; deseja esfumado.
+ALTERNATIVAS (exigem material adicional)
+  • Esfumado a carvão — falta: carvão
+INCOMPATÍVEIS com as condições informadas
+  • Lavagens (aguadas) de aquarela — não produz esfumado (produz: transparência); suporte inadequado (papel de desenho: papel fino de desenho enruga e ondula com a água das aguadas)
+  • Aquarela molhado sobre molhado — suporte inadequado (papel de desenho: papel fino de desenho se desfaz ou ondula quando encharcado)
+  • Desenho de linha e hachura a grafite — não produz esfumado (produz: linhas detalhadas)
+  • Desenho a nanquim com bico de pena — não produz esfumado (produz: linhas detalhadas)
+  • Pintura acrílica em camadas opacas — não produz esfumado (produz: cobertura opaca); suporte inadequado (papel de desenho: papel fino ondula e a camada espessa de tinta deforma o suporte)
+  • Veladuras com acrílica — não produz esfumado (produz: transparência); suporte inadequado (papel de desenho: papel fino ondula com as camadas úmidas de tinta)
+  • Técnica mista: aquarela sobre desenho a lápis — não produz esfumado (produz: transparência, linhas detalhadas); suporte inadequado (papel de desenho: papel fino de desenho enruga com as aguadas)
+[53 regras disparadas de 127]
+
+=== Cenário C14 (materiais faltantes) ===
+Você informou: aquarela; papel próprio para aquarela; deseja transparência.
+ALTERNATIVAS (exigem material adicional)
+  • Lavagens (aguadas) de aquarela — falta: pincel
+  • Aquarela molhado sobre molhado — falta: pincel
+  • Veladuras com acrílica — falta: tinta acrílica, pincel e médium acrílico
+  • Técnica mista: aquarela sobre desenho a lápis — falta: pincel e lápis grafite
+INCOMPATÍVEIS com as condições informadas
+  • Desenho de linha e hachura a grafite — não produz transparência (produz: linhas detalhadas)
+  • Esfumado a carvão — não produz transparência (produz: esfumado)
+  • Desenho a nanquim com bico de pena — não produz transparência (produz: linhas detalhadas)
+  • Pintura acrílica em camadas opacas — não produz transparência (produz: cobertura opaca)
+[60 regras disparadas de 127]
+
+=== Cenário C15 (materiais faltantes) ===
+Você informou: nanquim; papel de desenho; deseja linhas detalhadas.
+ALTERNATIVAS (exigem material adicional)
+  • Desenho de linha e hachura a grafite — falta: lápis grafite
+  • Desenho a nanquim com bico de pena — falta: bico de pena
+INCOMPATÍVEIS com as condições informadas
+  • Lavagens (aguadas) de aquarela — não produz linhas detalhadas (produz: transparência); suporte inadequado (papel de desenho: papel fino de desenho enruga e ondula com a água das aguadas)
+  • Aquarela molhado sobre molhado — não produz linhas detalhadas (produz: esfumado, transparência); suporte inadequado (papel de desenho: papel fino de desenho se desfaz ou ondula quando encharcado)
+  • Esfumado a carvão — não produz linhas detalhadas (produz: esfumado)
+  • Pintura acrílica em camadas opacas — não produz linhas detalhadas (produz: cobertura opaca); suporte inadequado (papel de desenho: papel fino ondula e a camada espessa de tinta deforma o suporte)
+  • Veladuras com acrílica — não produz linhas detalhadas (produz: transparência); suporte inadequado (papel de desenho: papel fino ondula com as camadas úmidas de tinta)
+  • Técnica mista: aquarela sobre desenho a lápis — suporte inadequado (papel de desenho: papel fino de desenho enruga com as aguadas)
+[53 regras disparadas de 127]
+
+=== Cenário C16 (materiais faltantes) ===
+Você informou: carvão e lápis grafite; tela preparada; deseja cobertura opaca.
+ALTERNATIVAS (exigem material adicional)
+  • Pintura acrílica em camadas opacas — falta: tinta acrílica e pincel
+INCOMPATÍVEIS com as condições informadas
+  • Lavagens (aguadas) de aquarela — não produz cobertura opaca (produz: transparência); suporte inadequado (tela preparada: a base acrílica da tela não absorve a aquarela, que escorre e não fixa)
+  • Aquarela molhado sobre molhado — não produz cobertura opaca (produz: esfumado, transparência); suporte inadequado (tela preparada: a base acrílica da tela não absorve a aquarela)
+  • Desenho de linha e hachura a grafite — não produz cobertura opaca (produz: linhas detalhadas); suporte inadequado (tela preparada: na tela o grafite serve só de esboço: borra, brilha e não tem fixação)
+  • Esfumado a carvão — não produz cobertura opaca (produz: esfumado); suporte inadequado (tela preparada: na tela o carvão serve só de esboço sob a pintura; solta sem fixação)
+  • Desenho a nanquim com bico de pena — não produz cobertura opaca (produz: linhas detalhadas); suporte inadequado (tela preparada: a trama da tela impede o traço fino da pena)
+  • Veladuras com acrílica — não produz cobertura opaca (produz: transparência)
+  • Técnica mista: aquarela sobre desenho a lápis — não produz cobertura opaca (produz: transparência, linhas detalhadas); suporte inadequado (tela preparada: a base acrílica da tela não absorve a aquarela)
+[47 regras disparadas de 127]
+
+=== Cenário C17 (informação insuficiente) ===
+Você informou: aquarela e pincel; papel (tipo não informado); deseja transparência.
+ALTERNATIVAS (exigem material adicional)
+  • Veladuras com acrílica — falta: tinta acrílica e médium acrílico; depende também de: suporte
+  • Técnica mista: aquarela sobre desenho a lápis — falta: lápis grafite; depende também de: suporte
+INCOMPATÍVEIS com as condições informadas
+  • Desenho de linha e hachura a grafite — não produz transparência (produz: linhas detalhadas)
+  • Esfumado a carvão — não produz transparência (produz: esfumado)
+  • Desenho a nanquim com bico de pena — não produz transparência (produz: linhas detalhadas)
+  • Pintura acrílica em camadas opacas — não produz transparência (produz: cobertura opaca)
+SEM CONCLUSÃO: falta informação para lavagens (aguadas) de aquarela e aquarela molhado sobre molhado
+PERGUNTAS
+  ? Que tipo de papel? É papel próprio para aquarela (encorpado, cerca de 300 g/m²) ou papel de desenho comum?
+[54 regras disparadas de 127]
+
+=== Cenário C18 (informação insuficiente) ===
+Você informou: aquarela e pincel; papel próprio para aquarela; efeito não informado.
+ALTERNATIVAS (exigem material adicional)
+  • Desenho de linha e hachura a grafite — falta: lápis grafite; depende também de: efeito
+  • Esfumado a carvão — falta: carvão; depende também de: efeito
+  • Desenho a nanquim com bico de pena — falta: nanquim e bico de pena; depende também de: efeito
+  • Pintura acrílica em camadas opacas — falta: tinta acrílica; depende também de: efeito
+  • Veladuras com acrílica — falta: tinta acrílica e médium acrílico; depende também de: efeito
+  • Técnica mista: aquarela sobre desenho a lápis — falta: lápis grafite; depende também de: efeito
+SEM CONCLUSÃO: falta informação para lavagens (aguadas) de aquarela e aquarela molhado sobre molhado
+PERGUNTAS
+  ? Que efeito você deseja: transparência, cobertura opaca, linhas detalhadas ou esfumado?
+[32 regras disparadas de 127]
+
+=== Cenário C19 (informação insuficiente) ===
+Você informou: lápis grafite; suporte não informado; deseja linhas detalhadas.
+ALTERNATIVAS (exigem material adicional)
+  • Desenho a nanquim com bico de pena — falta: nanquim e bico de pena; depende também de: suporte
+  • Técnica mista: aquarela sobre desenho a lápis — falta: aquarela e pincel; depende também de: suporte
+INCOMPATÍVEIS com as condições informadas
+  • Lavagens (aguadas) de aquarela — não produz linhas detalhadas (produz: transparência)
+  • Aquarela molhado sobre molhado — não produz linhas detalhadas (produz: esfumado, transparência)
+  • Esfumado a carvão — não produz linhas detalhadas (produz: esfumado)
+  • Pintura acrílica em camadas opacas — não produz linhas detalhadas (produz: cobertura opaca)
+  • Veladuras com acrílica — não produz linhas detalhadas (produz: transparência)
+SEM CONCLUSÃO: falta informação para desenho de linha e hachura a grafite
+PERGUNTAS
+  ? Em que suporte você vai trabalhar: papel próprio para aquarela, papel de desenho ou tela preparada?
+[48 regras disparadas de 127]
+
+=== Cenário C20 (informação insuficiente; aceita qualquer papel: não pergunta) ===
+Você informou: carvão; papel (tipo não informado); deseja esfumado.
+SUGESTÃO
+  • Esfumado a carvão
+    Justificativa: os materiais necessários estão disponíveis (carvão), o suporte foi considerado compatível (papel) e a técnica atende ao efeito desejado (esfumado).
+ALTERNATIVAS (exigem material adicional)
+  • Aquarela molhado sobre molhado — falta: aquarela e pincel; depende também de: suporte
+INCOMPATÍVEIS com as condições informadas
+  • Lavagens (aguadas) de aquarela — não produz esfumado (produz: transparência)
+  • Desenho de linha e hachura a grafite — não produz esfumado (produz: linhas detalhadas)
+  • Desenho a nanquim com bico de pena — não produz esfumado (produz: linhas detalhadas)
+  • Pintura acrílica em camadas opacas — não produz esfumado (produz: cobertura opaca)
+  • Veladuras com acrílica — não produz esfumado (produz: transparência)
+  • Técnica mista: aquarela sobre desenho a lápis — não produz esfumado (produz: transparência, linhas detalhadas)
+[52 regras disparadas de 127]
+
+=== Cenário C21 (informação insuficiente) ===
+Você informou: tinta acrílica e pincel; tela preparada; efeito não informado.
+ALTERNATIVAS (exigem material adicional)
+  • Veladuras com acrílica — falta: médium acrílico; depende também de: efeito
+INCOMPATÍVEIS com as condições informadas
+  • Lavagens (aguadas) de aquarela — suporte inadequado (tela preparada: a base acrílica da tela não absorve a aquarela, que escorre e não fixa)
+  • Aquarela molhado sobre molhado — suporte inadequado (tela preparada: a base acrílica da tela não absorve a aquarela)
+  • Desenho de linha e hachura a grafite — suporte inadequado (tela preparada: na tela o grafite serve só de esboço: borra, brilha e não tem fixação)
+  • Esfumado a carvão — suporte inadequado (tela preparada: na tela o carvão serve só de esboço sob a pintura; solta sem fixação)
+  • Desenho a nanquim com bico de pena — suporte inadequado (tela preparada: a trama da tela impede o traço fino da pena)
+  • Técnica mista: aquarela sobre desenho a lápis — suporte inadequado (tela preparada: a base acrílica da tela não absorve a aquarela)
+SEM CONCLUSÃO: falta informação para pintura acrílica em camadas opacas
+PERGUNTAS
+  ? Que efeito você deseja: transparência, cobertura opaca, linhas detalhadas ou esfumado?
+[21 regras disparadas de 127]
+
+=== Cenário C22 (informação insuficiente) ===
+Você informou: aquarela, pincel e lápis grafite; suporte não informado; efeito não informado.
+ALTERNATIVAS (exigem material adicional)
+  • Esfumado a carvão — falta: carvão; depende também de: efeito e suporte
+  • Desenho a nanquim com bico de pena — falta: nanquim e bico de pena; depende também de: efeito e suporte
+  • Pintura acrílica em camadas opacas — falta: tinta acrílica; depende também de: efeito e suporte
+  • Veladuras com acrílica — falta: tinta acrílica e médium acrílico; depende também de: efeito e suporte
+SEM CONCLUSÃO: falta informação para lavagens (aguadas) de aquarela, aquarela molhado sobre molhado, desenho de linha e hachura a grafite e técnica mista: aquarela sobre desenho a lápis
+PERGUNTAS
+  ? Que efeito você deseja: transparência, cobertura opaca, linhas detalhadas ou esfumado?
+  ? Em que suporte você vai trabalhar: papel próprio para aquarela, papel de desenho ou tela preparada?
+[21 regras disparadas de 127]
+
+=== Cenário C23 (condições incompatíveis) ===
+Você informou: aquarela e pincel; papel de desenho; deseja transparência.
+INCOMPATÍVEIS com as condições informadas
+  • Lavagens (aguadas) de aquarela — suporte inadequado (papel de desenho: papel fino de desenho enruga e ondula com a água das aguadas)
+  • Aquarela molhado sobre molhado — suporte inadequado (papel de desenho: papel fino de desenho se desfaz ou ondula quando encharcado)
+  • Desenho de linha e hachura a grafite — não produz transparência (produz: linhas detalhadas)
+  • Esfumado a carvão — não produz transparência (produz: esfumado)
+  • Desenho a nanquim com bico de pena — não produz transparência (produz: linhas detalhadas)
+  • Pintura acrílica em camadas opacas — não produz transparência (produz: cobertura opaca); suporte inadequado (papel de desenho: papel fino ondula e a camada espessa de tinta deforma o suporte)
+  • Veladuras com acrílica — suporte inadequado (papel de desenho: papel fino ondula com as camadas úmidas de tinta)
+  • Técnica mista: aquarela sobre desenho a lápis — suporte inadequado (papel de desenho: papel fino de desenho enruga com as aguadas)
+[57 regras disparadas de 127]
+
+=== Cenário C24 (condições incompatíveis) ===
+Você informou: lápis grafite e carvão; papel de desenho; deseja transparência.
+INCOMPATÍVEIS com as condições informadas
+  • Lavagens (aguadas) de aquarela — suporte inadequado (papel de desenho: papel fino de desenho enruga e ondula com a água das aguadas)
+  • Aquarela molhado sobre molhado — suporte inadequado (papel de desenho: papel fino de desenho se desfaz ou ondula quando encharcado)
+  • Desenho de linha e hachura a grafite — não produz transparência (produz: linhas detalhadas)
+  • Esfumado a carvão — não produz transparência (produz: esfumado)
+  • Desenho a nanquim com bico de pena — não produz transparência (produz: linhas detalhadas)
+  • Pintura acrílica em camadas opacas — não produz transparência (produz: cobertura opaca); suporte inadequado (papel de desenho: papel fino ondula e a camada espessa de tinta deforma o suporte)
+  • Veladuras com acrílica — suporte inadequado (papel de desenho: papel fino ondula com as camadas úmidas de tinta)
+  • Técnica mista: aquarela sobre desenho a lápis — suporte inadequado (papel de desenho: papel fino de desenho enruga com as aguadas)
+[59 regras disparadas de 127]
+
+=== Cenário C25 (condições incompatíveis) ===
+Você informou: aquarela e pincel; tela preparada; deseja transparência.
+ALTERNATIVAS (exigem material adicional)
+  • Veladuras com acrílica — falta: tinta acrílica e médium acrílico
+INCOMPATÍVEIS com as condições informadas
+  • Lavagens (aguadas) de aquarela — suporte inadequado (tela preparada: a base acrílica da tela não absorve a aquarela, que escorre e não fixa)
+  • Aquarela molhado sobre molhado — suporte inadequado (tela preparada: a base acrílica da tela não absorve a aquarela)
+  • Desenho de linha e hachura a grafite — não produz transparência (produz: linhas detalhadas); suporte inadequado (tela preparada: na tela o grafite serve só de esboço: borra, brilha e não tem fixação)
+  • Esfumado a carvão — não produz transparência (produz: esfumado); suporte inadequado (tela preparada: na tela o carvão serve só de esboço sob a pintura; solta sem fixação)
+  • Desenho a nanquim com bico de pena — não produz transparência (produz: linhas detalhadas); suporte inadequado (tela preparada: a trama da tela impede o traço fino da pena)
+  • Pintura acrílica em camadas opacas — não produz transparência (produz: cobertura opaca)
+  • Técnica mista: aquarela sobre desenho a lápis — suporte inadequado (tela preparada: a base acrílica da tela não absorve a aquarela)
+[53 regras disparadas de 127]
+
+=== Cenário C26 (condições incompatíveis) ===
+Você informou: lápis grafite; papel de desenho; deseja linhas detalhadas; prefere colorido.
+INCOMPATÍVEIS com as condições informadas
+  • Lavagens (aguadas) de aquarela — não produz linhas detalhadas (produz: transparência); suporte inadequado (papel de desenho: papel fino de desenho enruga e ondula com a água das aguadas)
+  • Aquarela molhado sobre molhado — não produz linhas detalhadas (produz: esfumado, transparência); suporte inadequado (papel de desenho: papel fino de desenho se desfaz ou ondula quando encharcado)
+  • Desenho de linha e hachura a grafite — é monocromático, e você prefere colorido
+  • Esfumado a carvão — é monocromático, e você prefere colorido; não produz linhas detalhadas (produz: esfumado)
+  • Desenho a nanquim com bico de pena — é monocromático, e você prefere colorido
+  • Pintura acrílica em camadas opacas — não produz linhas detalhadas (produz: cobertura opaca); suporte inadequado (papel de desenho: papel fino ondula e a camada espessa de tinta deforma o suporte)
+  • Veladuras com acrílica — não produz linhas detalhadas (produz: transparência); suporte inadequado (papel de desenho: papel fino ondula com as camadas úmidas de tinta)
+  • Técnica mista: aquarela sobre desenho a lápis — suporte inadequado (papel de desenho: papel fino de desenho enruga com as aguadas)
+[53 regras disparadas de 127]
+
+=== Cenário C27 (condições incompatíveis) ===
+Você informou: carvão; papel de desenho; deseja esfumado; quer combinar técnicas.
+INCOMPATÍVEIS com as condições informadas
+  • Lavagens (aguadas) de aquarela — você pediu combinação de técnicas e esta usa uma só; não produz esfumado (produz: transparência); suporte inadequado (papel de desenho: papel fino de desenho enruga e ondula com a água das aguadas)
+  • Aquarela molhado sobre molhado — você pediu combinação de técnicas e esta usa uma só; suporte inadequado (papel de desenho: papel fino de desenho se desfaz ou ondula quando encharcado)
+  • Desenho de linha e hachura a grafite — você pediu combinação de técnicas e esta usa uma só; não produz esfumado (produz: linhas detalhadas)
+  • Esfumado a carvão — você pediu combinação de técnicas e esta usa uma só
+  • Desenho a nanquim com bico de pena — você pediu combinação de técnicas e esta usa uma só; não produz esfumado (produz: linhas detalhadas)
+  • Pintura acrílica em camadas opacas — você pediu combinação de técnicas e esta usa uma só; não produz esfumado (produz: cobertura opaca); suporte inadequado (papel de desenho: papel fino ondula e a camada espessa de tinta deforma o suporte)
+  • Veladuras com acrílica — você pediu combinação de técnicas e esta usa uma só; não produz esfumado (produz: transparência); suporte inadequado (papel de desenho: papel fino ondula com as camadas úmidas de tinta)
+  • Técnica mista: aquarela sobre desenho a lápis — não produz esfumado (produz: transparência, linhas detalhadas); suporte inadequado (papel de desenho: papel fino de desenho enruga com as aguadas)
+[46 regras disparadas de 127]
+
+=== Cenário C28 (fora da base) ===
+Você informou: guache e pincel; papel próprio para aquarela; deseja cobertura opaca.
+Não está na base de conhecimento (ignorado): guache.
+ALTERNATIVAS (exigem material adicional)
+  • Pintura acrílica em camadas opacas — falta: tinta acrílica
+INCOMPATÍVEIS com as condições informadas
+  • Lavagens (aguadas) de aquarela — não produz cobertura opaca (produz: transparência)
+  • Aquarela molhado sobre molhado — não produz cobertura opaca (produz: esfumado, transparência)
+  • Desenho de linha e hachura a grafite — não produz cobertura opaca (produz: linhas detalhadas)
+  • Esfumado a carvão — não produz cobertura opaca (produz: esfumado)
+  • Desenho a nanquim com bico de pena — não produz cobertura opaca (produz: linhas detalhadas)
+  • Veladuras com acrílica — não produz cobertura opaca (produz: transparência)
+  • Técnica mista: aquarela sobre desenho a lápis — não produz cobertura opaca (produz: transparência, linhas detalhadas)
+[54 regras disparadas de 127]
+
+=== Cenário C29 (fora da base) ===
+Você informou: pastel_seco; papel de desenho; deseja esfumado.
+Não está na base de conhecimento (ignorado): pastel_seco.
+ALTERNATIVAS (exigem material adicional)
+  • Esfumado a carvão — falta: carvão
+INCOMPATÍVEIS com as condições informadas
+  • Lavagens (aguadas) de aquarela — não produz esfumado (produz: transparência); suporte inadequado (papel de desenho: papel fino de desenho enruga e ondula com a água das aguadas)
+  • Aquarela molhado sobre molhado — suporte inadequado (papel de desenho: papel fino de desenho se desfaz ou ondula quando encharcado)
+  • Desenho de linha e hachura a grafite — não produz esfumado (produz: linhas detalhadas)
+  • Desenho a nanquim com bico de pena — não produz esfumado (produz: linhas detalhadas)
+  • Pintura acrílica em camadas opacas — não produz esfumado (produz: cobertura opaca); suporte inadequado (papel de desenho: papel fino ondula e a camada espessa de tinta deforma o suporte)
+  • Veladuras com acrílica — não produz esfumado (produz: transparência); suporte inadequado (papel de desenho: papel fino ondula com as camadas úmidas de tinta)
+  • Técnica mista: aquarela sobre desenho a lápis — não produz esfumado (produz: transparência, linhas detalhadas); suporte inadequado (papel de desenho: papel fino de desenho enruga com as aguadas)
+[51 regras disparadas de 127]
+
+=== Cenário C30 (fora da base) ===
+Você informou: lapis_aquarelavel e pincel; papel próprio para aquarela; deseja transparência.
+Não está na base de conhecimento (ignorado): lapis_aquarelavel.
+ALTERNATIVAS (exigem material adicional)
+  • Lavagens (aguadas) de aquarela — falta: aquarela
+  • Aquarela molhado sobre molhado — falta: aquarela
+  • Veladuras com acrílica — falta: tinta acrílica e médium acrílico
+  • Técnica mista: aquarela sobre desenho a lápis — falta: aquarela e lápis grafite
+INCOMPATÍVEIS com as condições informadas
+  • Desenho de linha e hachura a grafite — não produz transparência (produz: linhas detalhadas)
+  • Esfumado a carvão — não produz transparência (produz: esfumado)
+  • Desenho a nanquim com bico de pena — não produz transparência (produz: linhas detalhadas)
+  • Pintura acrílica em camadas opacas — não produz transparência (produz: cobertura opaca)
+[60 regras disparadas de 127]

@@ -1,0 +1,185 @@
+{
+ "n_notas": 16,
+ "alturas": [
+  60,
+  84
+ ],
+ "pontuacao_max": 13,
+ "execucoes": 30,
+ "iniciais": {
+  "media": -39.3,
+  "dp": 6.502050958479691
+ },
+ "resumo": {
+  "Subida de encosta": {
+   "media": 7.1,
+   "dp": 3.249102440162001,
+   "min": -2,
+   "max": 11,
+   "atingiu_max": 0,
+   "aval_medio": 871.3333333333334,
+   "t_medio_s": 0.009291533341941735
+  },
+  "Reinício aleatório (10)": {
+   "media": 10.433333333333334,
+   "dp": 0.989388138643722,
+   "min": 8,
+   "max": 12,
+   "atingiu_max": 0,
+   "aval_medio": 7981.533333333334,
+   "t_medio_s": 0.08606084999628365
+  },
+  "Têmpera simulada": {
+   "media": 12.066666666666666,
+   "dp": 0.2494438257849294,
+   "min": 12,
+   "max": 13,
+   "atingiu_max": 2,
+   "aval_medio": 20001.0,
+   "t_medio_s": 0.22726845333818346
+  }
+ },
+ "exemplo": {
+  "inicial": {
+   "midi": [
+    72,
+    84,
+    73,
+    61,
+    68,
+    76,
+    75,
+    72,
+    69,
+    75,
+    71,
+    78,
+    66,
+    76,
+    64,
+    69
+   ],
+   "notas": [
+    "dó5",
+    "dó6",
+    "dó#5",
+    "dó#4",
+    "sol#4",
+    "mi5",
+    "ré#5",
+    "dó5",
+    "lá4",
+    "ré#5",
+    "si4",
+    "fá#5",
+    "fá#4",
+    "mi5",
+    "mi4",
+    "lá4"
+   ],
+   "pontos": -32,
+   "parcelas": {
+    "R1 escala": -14,
+    "R2 saltos": -10,
+    "R3 padrão": 0,
+    "R4 tônica": 3,
+    "R5 variedade": 0,
+    "R6 âmbito": -11
+   }
+  },
+  "final_tempera": {
+   "midi": [
+    72,
+    67,
+    71,
+    69,
+    64,
+    67,
+    64,
+    62,
+    67,
+    65,
+    69,
+    67,
+    62,
+    65,
+    62,
+    60
+   ],
+   "notas": [
+    "dó5",
+    "sol4",
+    "si4",
+    "lá4",
+    "mi4",
+    "sol4",
+    "mi4",
+    "ré4",
+    "sol4",
+    "fá4",
+    "lá4",
+    "sol4",
+    "ré4",
+    "fá4",
+    "ré4",
+    "dó4"
+   ],
+   "pontos": 12,
+   "parcelas": {
+    "R1 escala": 0,
+    "R2 saltos": 0,
+    "R3 padrão": 6,
+    "R4 tônica": 6,
+    "R5 variedade": 0,
+    "R6 âmbito": 0
+   }
+  },
+  "final_subida": {
+   "midi": [
+    72,
+    76,
+    74,
+    69,
+    67,
+    76,
+    74,
+    72,
+    67,
+    71,
+    69,
+    76,
+    74,
+    69,
+    67,
+    72
+   ],
+   "notas": [
+    "dó5",
+    "mi5",
+    "ré5",
+    "lá4",
+    "sol4",
+    "mi5",
+    "ré5",
+    "dó5",
+    "sol4",
+    "si4",
+    "lá4",
+    "mi5",
+    "ré5",
+    "lá4",
+    "sol4",
+    "dó5"
+   ],
+   "pontos": 8,
+   "parcelas": {
+    "R1 escala": 0,
+    "R2 saltos": -2,
+    "R3 padrão": 4,
+    "R4 tônica": 6,
+    "R5 variedade": 0,
+    "R6 âmbito": 0
+   }
+  }
+ }
+}

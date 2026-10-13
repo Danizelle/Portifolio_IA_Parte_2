@@ -1,0 +1,102 @@
+{
+ "N": 30,
+ "celulas_livres": 707,
+ "cenario_A": {
+  "BFS": {
+   "passos": 58,
+   "custo_cenario": 58,
+   "custo_real": 162,
+   "expandidos": 700,
+   "max_mem": 702,
+   "tempo_ms": 2.697100047953427
+  },
+  "DFS": {
+   "passos": 138,
+   "custo_cenario": 138,
+   "custo_real": 537,
+   "expandidos": 195,
+   "max_mem": 295,
+   "tempo_ms": 0.8116000099107623
+  },
+  "UCS": {
+   "passos": 58,
+   "custo_cenario": 58,
+   "custo_real": 162,
+   "expandidos": 701,
+   "max_mem": 702,
+   "tempo_ms": 4.258400062099099
+  },
+  "IDS": {
+   "passos": 58,
+   "custo_cenario": 58,
+   "custo_real": 162,
+   "expandidos": 143722,
+   "max_mem": 701,
+   "tempo_ms": 419.9733999557793
+  }
+ },
+ "cenario_B": {
+  "BFS": {
+   "passos": 58,
+   "custo_cenario": 162,
+   "custo_real": 162,
+   "expandidos": 700,
+   "max_mem": 702,
+   "tempo_ms": 1.6313999658450484
+  },
+  "DFS": {
+   "passos": 138,
+   "custo_cenario": 537,
+   "custo_real": 537,
+   "expandidos": 195,
+   "max_mem": 295,
+   "tempo_ms": 0.4901000065729022
+  },
+  "UCS": {
+   "passos": 58,
+   "custo_cenario": 72,
+   "custo_real": 72,
+   "expandidos": 501,
+   "max_mem": 551,
+   "tempo_ms": 1.729800016619265
+  },
+  "IDS": {
+   "passos": 58,
+   "custo_cenario": 162,
+   "custo_real": 162,
+   "expandidos": 143722,
+   "max_mem": 701,
+   "tempo_ms": 396.9593000365421
+  }
+ },
+ "escala": {
+  "BFS": {
+   "10": 76.1,
+   "20": 306.0,
+   "30": 689.8,
+   "40": 1231.8,
+   "60": 2796.6
+  },
+  "DFS": {
+   "10": 30.3,
+   "20": 135.8,
+   "30": 174.6,
+   "40": 275.0,
+   "60": 684.2
+  },
+  "UCS": {
+   "10": 68.1,
+   "20": 264.2,
+   "30": 660.3,
+   "40": 1143.4,
+   "60": 2762.3
+  },
+  "IDS": {
+   "10": 1489.3,
+   "20": 23780.0,
+   "30": 131328.6,
+   "40": 467778.8,
+   "60": 2552575.2
+  }
+ }
+}

@@ -1,0 +1,3 @@
+# Dependências do Trabalho 2
+numpy>=1.22.0
+matplotlib>=3.5.0

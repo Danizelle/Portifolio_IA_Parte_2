@@ -1,0 +1,1087 @@
+{
+ "tecnicas": 8,
+ "regras": 127,
+ "regras_por_tipo": {
+  "materiais": 8,
+  "suporte": 16,
+  "viabilidade": 8,
+  "efeito": 42,
+  "atende": 8,
+  "adequacao": 8,
+  "preferencia": 29,
+  "recomendacao": 8
+ },
+ "cenarios": 30,
+ "ms_por_cenario": 1.7166899982839823,
+ "resumo": {
+  "completo": {
+   "cenarios": 10,
+   "corretos": 10,
+   "regras_media": 58.3
+  },
+  "materiais faltantes": {
+   "cenarios": 6,
+   "corretos": 6,
+   "regras_media": 54.333333333333336
+  },
+  "informação insuficiente": {
+   "cenarios": 6,
+   "corretos": 6,
+   "regras_media": 38.0
+  },
+  "condições incompatíveis": {
+   "cenarios": 5,
+   "corretos": 5,
+   "regras_media": 53.6
+  },
+  "fora da base": {
+   "cenarios": 3,
+   "corretos": 0,
+   "regras_media": 55.0
+  }
+ },
+ "acerto_dentro_base": [
+  27,
+  27
+ ],
+ "acerto_total": [
+  27,
+  30
+ ],
+ "linhas": [
+  {
+   "id": 1,
+   "grupo": "completo",
+   "correto": true,
+   "ok": {
+    "rec": true,
+    "alt": true,
+    "perg": true
+   },
+   "regras_disparadas": 68,
+   "obtido": {
+    "rec": [
+     "lavagem",
+     "molhado"
+    ],
+    "alt": {
+     "veladura": [
+      "acrilica",
+      "medium_acrilico"
+     ],
+     "mista": [
+      "lapis"
+     ]
+    },
+    "perg": []
+   },
+   "esperado": {
+    "rec": [
+     "lavagem",
+     "molhado"
+    ],
+    "alt": {
+     "mista": [
+      "lapis"
+     ],
+     "veladura": [
+      "acrilica",
+      "medium_acrilico"
+     ]
+    },
+    "perg": []
+   }
+  },
+  {
+   "id": 2,
+   "grupo": "completo",
+   "correto": true,
+   "ok": {
+    "rec": true,
+    "alt": true,
+    "perg": true
+   },
+   "regras_disparadas": 57,
+   "obtido": {
+    "rec": [
+     "grafite"
+    ],
+    "alt": {
+     "nanquim": [
+      "bico_de_pena",
+      "nanquim"
+     ]
+    },
+    "perg": []
+   },
+   "esperado": {
+    "rec": [
+     "grafite"
+    ],
+    "alt": {
+     "nanquim": [
+      "bico_de_pena",
+      "nanquim"
+     ]
+    },
+    "perg": []
+   }
+  },
+  {
+   "id": 3,
+   "grupo": "completo",
+   "correto": true,
+   "ok": {
+    "rec": true,
+    "alt": true,
+    "perg": true
+   },
+   "regras_disparadas": 54,
+   "obtido": {
+    "rec": [
+     "carvao"
+    ],
+    "alt": {},
+    "perg": []
+   },
+   "esperado": {
+    "rec": [
+     "carvao"
+    ],
+    "alt": {},
+    "perg": []
+   }
+  },
+  {
+   "id": 4,
+   "grupo": "completo",
+   "correto": true,
+   "ok": {
+    "rec": true,
+    "alt": true,
+    "perg": true
+   },
+   "regras_disparadas": 49,
+   "obtido": {
+    "rec": [
+     "acrilica_opaca"
+    ],
+    "alt": {},
+    "perg": []
+   },
+   "esperado": {
+    "rec": [
+     "acrilica_opaca"
+    ],
+    "alt": {},
+    "perg": []
+   }
+  },
+  {
+   "id": 5,
+   "grupo": "completo",
+   "correto": true,
+   "ok": {
+    "rec": true,
+    "alt": true,
+    "perg": true
+   },
+   "regras_disparadas": 57,
+   "obtido": {
+    "rec": [
+     "veladura"
+    ],
+    "alt": {},
+    "perg": []
+   },
+   "esperado": {
+    "rec": [
+     "veladura"
+    ],
+    "alt": {},
+    "perg": []
+   }
+  },
+  {
+   "id": 6,
+   "grupo": "completo",
+   "correto": true,
+   "ok": {
+    "rec": true,
+    "alt": true,
+    "perg": true
+   },
+   "regras_disparadas": 54,
+   "obtido": {
+    "rec": [
+     "mista"
+    ],
+    "alt": {},
+    "perg": []
+   },
+   "esperado": {
+    "rec": [
+     "mista"
+    ],
+    "alt": {},
+    "perg": []
+   }
+  },
+  {
+   "id": 7,
+   "grupo": "completo",
+   "correto": true,
+   "ok": {
+    "rec": true,
+    "alt": true,
+    "perg": true
+   },
+   "regras_disparadas": 60,
+   "obtido": {
+    "rec": [
+     "grafite",
+     "nanquim"
+    ],
+    "alt": {},
+    "perg": []
+   },
+   "esperado": {
+    "rec": [
+     "grafite",
+     "nanquim"
+    ],
+    "alt": {},
+    "perg": []
+   }
+  },
+  {
+   "id": 8,
+   "grupo": "completo",
+   "correto": true,
+   "ok": {
+    "rec": true,
+    "alt": true,
+    "perg": true
+   },
+   "regras_disparadas": 62,
+   "obtido": {
+    "rec": [
+     "molhado"
+    ],
+    "alt": {
+     "carvao": [
+      "carvao"
+     ]
+    },
+    "perg": []
+   },
+   "esperado": {
+    "rec": [
+     "molhado"
+    ],
+    "alt": {
+     "carvao": [
+      "carvao"
+     ]
+    },
+    "perg": []
+   }
+  },
+  {
+   "id": 9,
+   "grupo": "completo",
+   "correto": true,
+   "ok": {
+    "rec": true,
+    "alt": true,
+    "perg": true
+   },
+   "regras_disparadas": 55,
+   "obtido": {
+    "rec": [
+     "acrilica_opaca"
+    ],
+    "alt": {},
+    "perg": []
+   },
+   "esperado": {
+    "rec": [
+     "acrilica_opaca"
+    ],
+    "alt": {},
+    "perg": []
+   }
+  },
+  {
+   "id": 10,
+   "grupo": "completo",
+   "correto": true,
+   "ok": {
+    "rec": true,
+    "alt": true,
+    "perg": true
+   },
+   "regras_disparadas": 67,
+   "obtido": {
+    "rec": [
+     "lavagem",
+     "molhado"
+    ],
+    "alt": {
+     "veladura": [
+      "acrilica",
+      "medium_acrilico"
+     ]
+    },
+    "perg": []
+   },
+   "esperado": {
+    "rec": [
+     "lavagem",
+     "molhado"
+    ],
+    "alt": {
+     "veladura": [
+      "acrilica",
+      "medium_acrilico"
+     ]
+    },
+    "perg": []
+   }
+  },
+  {
+   "id": 11,
+   "grupo": "materiais faltantes",
+   "correto": true,
+   "ok": {
+    "rec": true,
+    "alt": true,
+    "perg": true
+   },
+   "regras_disparadas": 60,
+   "obtido": {
+    "rec": [],
+    "alt": {
+     "lavagem": [
+      "aquarela"
+     ],
+     "molhado": [
+      "aquarela"
+     ],
+     "veladura": [
+      "acrilica",
+      "medium_acrilico"
+     ],
+     "mista": [
+      "aquarela",
+      "lapis"
+     ]
+    },
+    "perg": []
+   },
+   "esperado": {
+    "rec": [],
+    "alt": {
+     "lavagem": [
+      "aquarela"
+     ],
+     "molhado": [
+      "aquarela"
+     ],
+     "veladura": [
+      "acrilica",
+      "medium_acrilico"
+     ],
+     "mista": [
+      "aquarela",
+      "lapis"
+     ]
+    },
+    "perg": []
+   }
+  },
+  {
+   "id": 12,
+   "grupo": "materiais faltantes",
+   "correto": true,
+   "ok": {
+    "rec": true,
+    "alt": true,
+    "perg": true
+   },
+   "regras_disparadas": 53,
+   "obtido": {
+    "rec": [],
+    "alt": {
+     "veladura": [
+      "medium_acrilico"
+     ]
+    },
+    "perg": []
+   },
+   "esperado": {
+    "rec": [],
+    "alt": {
+     "veladura": [
+      "medium_acrilico"
+     ]
+    },
+    "perg": []
+   }
+  },
+  {
+   "id": 13,
+   "grupo": "materiais faltantes",
+   "correto": true,
+   "ok": {
+    "rec": true,
+    "alt": true,
+    "perg": true
+   },
+   "regras_disparadas": 53,
+   "obtido": {
+    "rec": [],
+    "alt": {
+     "carvao": [
+      "carvao"
+     ]
+    },
+    "perg": []
+   },
+   "esperado": {
+    "rec": [],
+    "alt": {
+     "carvao": [
+      "carvao"
+     ]
+    },
+    "perg": []
+   }
+  },
+  {
+   "id": 14,
+   "grupo": "materiais faltantes",
+   "correto": true,
+   "ok": {
+    "rec": true,
+    "alt": true,
+    "perg": true
+   },
+   "regras_disparadas": 60,
+   "obtido": {
+    "rec": [],
+    "alt": {
+     "lavagem": [
+      "pincel"
+     ],
+     "molhado": [
+      "pincel"
+     ],
+     "veladura": [
+      "acrilica",
+      "medium_acrilico",
+      "pincel"
+     ],
+     "mista": [
+      "lapis",
+      "pincel"
+     ]
+    },
+    "perg": []
+   },
+   "esperado": {
+    "rec": [],
+    "alt": {
+     "lavagem": [
+      "pincel"
+     ],
+     "molhado": [
+      "pincel"
+     ],
+     "veladura": [
+      "acrilica",
+      "medium_acrilico",
+      "pincel"
+     ],
+     "mista": [
+      "lapis",
+      "pincel"
+     ]
+    },
+    "perg": []
+   }
+  },
+  {
+   "id": 15,
+   "grupo": "materiais faltantes",
+   "correto": true,
+   "ok": {
+    "rec": true,
+    "alt": true,
+    "perg": true
+   },
+   "regras_disparadas": 53,
+   "obtido": {
+    "rec": [],
+    "alt": {
+     "grafite": [
+      "lapis"
+     ],
+     "nanquim": [
+      "bico_de_pena"
+     ]
+    },
+    "perg": []
+   },
+   "esperado": {
+    "rec": [],
+    "alt": {
+     "nanquim": [
+      "bico_de_pena"
+     ],
+     "grafite": [
+      "lapis"
+     ]
+    },
+    "perg": []
+   }
+  },
+  {
+   "id": 16,
+   "grupo": "materiais faltantes",
+   "correto": true,
+   "ok": {
+    "rec": true,
+    "alt": true,
+    "perg": true
+   },
+   "regras_disparadas": 47,
+   "obtido": {
+    "rec": [],
+    "alt": {
+     "acrilica_opaca": [
+      "acrilica",
+      "pincel"
+     ]
+    },
+    "perg": []
+   },
+   "esperado": {
+    "rec": [],
+    "alt": {
+     "acrilica_opaca": [
+      "acrilica",
+      "pincel"
+     ]
+    },
+    "perg": []
+   }
+  },
+  {
+   "id": 17,
+   "grupo": "informação insuficiente",
+   "correto": true,
+   "ok": {
+    "rec": true,
+    "alt": true,
+    "perg": true
+   },
+   "regras_disparadas": 54,
+   "obtido": {
+    "rec": [],
+    "alt": {
+     "veladura": [
+      "acrilica",
+      "medium_acrilico"
+     ],
+     "mista": [
+      "lapis"
+     ]
+    },
+    "perg": [
+     "suporte"
+    ]
+   },
+   "esperado": {
+    "rec": [],
+    "alt": {
+     "mista": [
+      "lapis"
+     ],
+     "veladura": [
+      "acrilica",
+      "medium_acrilico"
+     ]
+    },
+    "perg": [
+     "suporte"
+    ]
+   }
+  },
+  {
+   "id": 18,
+   "grupo": "informação insuficiente",
+   "correto": true,
+   "ok": {
+    "rec": true,
+    "alt": true,
+    "perg": true
+   },
+   "regras_disparadas": 32,
+   "obtido": {
+    "rec": [],
+    "alt": {
+     "grafite": [
+      "lapis"
+     ],
+     "carvao": [
+      "carvao"
+     ],
+     "nanquim": [
+      "bico_de_pena",
+      "nanquim"
+     ],
+     "acrilica_opaca": [
+      "acrilica"
+     ],
+     "veladura": [
+      "acrilica",
+      "medium_acrilico"
+     ],
+     "mista": [
+      "lapis"
+     ]
+    },
+    "perg": [
+     "efeito"
+    ]
+   },
+   "esperado": {
+    "rec": [],
+    "alt": {
+     "acrilica_opaca": [
+      "acrilica"
+     ],
+     "veladura": [
+      "acrilica",
+      "medium_acrilico"
+     ],
+     "mista": [
+      "lapis"
+     ],
+     "grafite": [
+      "lapis"
+     ],
+     "carvao": [
+      "carvao"
+     ],
+     "nanquim": [
+      "bico_de_pena",
+      "nanquim"
+     ]
+    },
+    "perg": [
+     "efeito"
+    ]
+   }
+  },
+  {
+   "id": 19,
+   "grupo": "informação insuficiente",
+   "correto": true,
+   "ok": {
+    "rec": true,
+    "alt": true,
+    "perg": true
+   },
+   "regras_disparadas": 48,
+   "obtido": {
+    "rec": [],
+    "alt": {
+     "nanquim": [
+      "bico_de_pena",
+      "nanquim"
+     ],
+     "mista": [
+      "aquarela",
+      "pincel"
+     ]
+    },
+    "perg": [
+     "suporte"
+    ]
+   },
+   "esperado": {
+    "rec": [],
+    "alt": {
+     "nanquim": [
+      "bico_de_pena",
+      "nanquim"
+     ],
+     "mista": [
+      "aquarela",
+      "pincel"
+     ]
+    },
+    "perg": [
+     "suporte"
+    ]
+   }
+  },
+  {
+   "id": 20,
+   "grupo": "informação insuficiente",
+   "correto": true,
+   "ok": {
+    "rec": true,
+    "alt": true,
+    "perg": true
+   },
+   "regras_disparadas": 52,
+   "obtido": {
+    "rec": [
+     "carvao"
+    ],
+    "alt": {
+     "molhado": [
+      "aquarela",
+      "pincel"
+     ]
+    },
+    "perg": []
+   },
+   "esperado": {
+    "rec": [
+     "carvao"
+    ],
+    "alt": {
+     "molhado": [
+      "aquarela",
+      "pincel"
+     ]
+    },
+    "perg": []
+   }
+  },
+  {
+   "id": 21,
+   "grupo": "informação insuficiente",
+   "correto": true,
+   "ok": {
+    "rec": true,
+    "alt": true,
+    "perg": true
+   },
+   "regras_disparadas": 21,
+   "obtido": {
+    "rec": [],
+    "alt": {
+     "veladura": [
+      "medium_acrilico"
+     ]
+    },
+    "perg": [
+     "efeito"
+    ]
+   },
+   "esperado": {
+    "rec": [],
+    "alt": {
+     "veladura": [
+      "medium_acrilico"
+     ]
+    },
+    "perg": [
+     "efeito"
+    ]
+   }
+  },
+  {
+   "id": 22,
+   "grupo": "informação insuficiente",
+   "correto": true,
+   "ok": {
+    "rec": true,
+    "alt": true,
+    "perg": true
+   },
+   "regras_disparadas": 21,
+   "obtido": {
+    "rec": [],
+    "alt": {
+     "carvao": [
+      "carvao"
+     ],
+     "nanquim": [
+      "bico_de_pena",
+      "nanquim"
+     ],
+     "acrilica_opaca": [
+      "acrilica"
+     ],
+     "veladura": [
+      "acrilica",
+      "medium_acrilico"
+     ]
+    },
+    "perg": [
+     "efeito",
+     "suporte"
+    ]
+   },
+   "esperado": {
+    "rec": [],
+    "alt": {
+     "carvao": [
+      "carvao"
+     ],
+     "nanquim": [
+      "bico_de_pena",
+      "nanquim"
+     ],
+     "acrilica_opaca": [
+      "acrilica"
+     ],
+     "veladura": [
+      "acrilica",
+      "medium_acrilico"
+     ]
+    },
+    "perg": [
+     "efeito",
+     "suporte"
+    ]
+   }
+  },
+  {
+   "id": 23,
+   "grupo": "condições incompatíveis",
+   "correto": true,
+   "ok": {
+    "rec": true,
+    "alt": true,
+    "perg": true
+   },
+   "regras_disparadas": 57,
+   "obtido": {
+    "rec": [],
+    "alt": {},
+    "perg": []
+   },
+   "esperado": {
+    "rec": [],
+    "alt": {},
+    "perg": []
+   }
+  },
+  {
+   "id": 24,
+   "grupo": "condições incompatíveis",
+   "correto": true,
+   "ok": {
+    "rec": true,
+    "alt": true,
+    "perg": true
+   },
+   "regras_disparadas": 59,
+   "obtido": {
+    "rec": [],
+    "alt": {},
+    "perg": []
+   },
+   "esperado": {
+    "rec": [],
+    "alt": {},
+    "perg": []
+   }
+  },
+  {
+   "id": 25,
+   "grupo": "condições incompatíveis",
+   "correto": true,
+   "ok": {
+    "rec": true,
+    "alt": true,
+    "perg": true
+   },
+   "regras_disparadas": 53,
+   "obtido": {
+    "rec": [],
+    "alt": {
+     "veladura": [
+      "acrilica",
+      "medium_acrilico"
+     ]
+    },
+    "perg": []
+   },
+   "esperado": {
+    "rec": [],
+    "alt": {
+     "veladura": [
+      "acrilica",
+      "medium_acrilico"
+     ]
+    },
+    "perg": []
+   }
+  },
+  {
+   "id": 26,
+   "grupo": "condições incompatíveis",
+   "correto": true,
+   "ok": {
+    "rec": true,
+    "alt": true,
+    "perg": true
+   },
+   "regras_disparadas": 53,
+   "obtido": {
+    "rec": [],
+    "alt": {},
+    "perg": []
+   },
+   "esperado": {
+    "rec": [],
+    "alt": {},
+    "perg": []
+   }
+  },
+  {
+   "id": 27,
+   "grupo": "condições incompatíveis",
+   "correto": true,
+   "ok": {
+    "rec": true,
+    "alt": true,
+    "perg": true
+   },
+   "regras_disparadas": 46,
+   "obtido": {
+    "rec": [],
+    "alt": {},
+    "perg": []
+   },
+   "esperado": {
+    "rec": [],
+    "alt": {},
+    "perg": []
+   }
+  },
+  {
+   "id": 28,
+   "grupo": "fora da base",
+   "correto": false,
+   "ok": {
+    "rec": false,
+    "alt": true,
+    "perg": true
+   },
+   "regras_disparadas": 54,
+   "obtido": {
+    "rec": [],
+    "alt": {
+     "acrilica_opaca": [
+      "acrilica"
+     ]
+    },
+    "perg": []
+   },
+   "esperado": {
+    "rec": [
+     "guache (fora da base)"
+    ],
+    "alt": {
+     "acrilica_opaca": [
+      "acrilica"
+     ]
+    },
+    "perg": []
+   }
+  },
+  {
+   "id": 29,
+   "grupo": "fora da base",
+   "correto": false,
+   "ok": {
+    "rec": false,
+    "alt": true,
+    "perg": true
+   },
+   "regras_disparadas": 51,
+   "obtido": {
+    "rec": [],
+    "alt": {
+     "carvao": [
+      "carvao"
+     ]
+    },
+    "perg": []
+   },
+   "esperado": {
+    "rec": [
+     "pastel seco esfumado (fora da base)"
+    ],
+    "alt": {
+     "carvao": [
+      "carvao"
+     ]
+    },
+    "perg": []
+   }
+  },
+  {
+   "id": 30,
+   "grupo": "fora da base",
+   "correto": false,
+   "ok": {
+    "rec": false,
+    "alt": true,
+    "perg": true
+   },
+   "regras_disparadas": 60,
+   "obtido": {
+    "rec": [],
+    "alt": {
+     "lavagem": [
+      "aquarela"
+     ],
+     "molhado": [
+      "aquarela"
+     ],
+     "veladura": [
+      "acrilica",
+      "medium_acrilico"
+     ],
+     "mista": [
+      "aquarela",
+      "lapis"
+     ]
+    },
+    "perg": []
+   },
+   "esperado": {
+    "rec": [
+     "lápis aquarelável (fora da base)"
+    ],
+    "alt": {
+     "lavagem": [
+      "aquarela"
+     ],
+     "molhado": [
+      "aquarela"
+     ],
+     "veladura": [
+      "acrilica",
+      "medium_acrilico"
+     ],
+     "mista": [
+      "aquarela",
+      "lapis"
+     ]
+    },
+    "perg": []
+   }
+  }
+ ]
+}
