@@ -1,0 +1,266 @@
+{
+ "orcamento": 50000,
+ "instancias_por_tamanho": 20,
+ "resultados": {
+  "BT puro": {
+   "24": {
+    "mediana_atrib": 24.0,
+    "media_retrocessos": 0.9,
+    "resolvidas": 20,
+    "esgotou_orcamento": 0,
+    "tempo_med_ms": 0.29751499532721937
+   },
+   "28": {
+    "mediana_atrib": 28.0,
+    "media_retrocessos": 9775.95,
+    "resolvidas": 17,
+    "esgotou_orcamento": 3,
+    "tempo_med_ms": 174.60789500037208
+   },
+   "32": {
+    "mediana_atrib": 50001.0,
+    "media_retrocessos": 28017.55,
+    "resolvidas": 9,
+    "esgotou_orcamento": 11,
+    "tempo_med_ms": 450.5578999989666
+   },
+   "34": {
+    "mediana_atrib": 50001.0,
+    "media_retrocessos": 38203.25,
+    "resolvidas": 5,
+    "esgotou_orcamento": 15,
+    "tempo_med_ms": 626.1924449936487
+   },
+   "36": {
+    "mediana_atrib": 50001.0,
+    "media_retrocessos": 49743.8,
+    "resolvidas": 1,
+    "esgotou_orcamento": 19,
+    "tempo_med_ms": 531.0097749927081
+   }
+  },
+  "BT + MRV": {
+   "24": {
+    "mediana_atrib": 24.0,
+    "media_retrocessos": 0,
+    "resolvidas": 20,
+    "esgotou_orcamento": 0,
+    "tempo_med_ms": 2.7078900020569563
+   },
+   "28": {
+    "mediana_atrib": 28.0,
+    "media_retrocessos": 3637.05,
+    "resolvidas": 19,
+    "esgotou_orcamento": 1,
+    "tempo_med_ms": 351.72522498178296
+   },
+   "32": {
+    "mediana_atrib": 190.5,
+    "media_retrocessos": 8159.8,
+    "resolvidas": 18,
+    "esgotou_orcamento": 2,
+    "tempo_med_ms": 874.4730600039475
+   },
+   "34": {
+    "mediana_atrib": 397.5,
+    "media_retrocessos": 11327.6,
+    "resolvidas": 17,
+    "esgotou_orcamento": 3,
+    "tempo_med_ms": 552.1036349819042
+   },
+   "36": {
+    "mediana_atrib": 50001.0,
+    "media_retrocessos": 37057.7,
+    "resolvidas": 6,
+    "esgotou_orcamento": 14,
+    "tempo_med_ms": 2311.0974950017408
+   }
+  },
+  "BT + MRV + LCV": {
+   "24": {
+    "mediana_atrib": 24.0,
+    "media_retrocessos": 0,
+    "resolvidas": 20,
+    "esgotou_orcamento": 0,
+    "tempo_med_ms": 12.46619499870576
+   },
+   "28": {
+    "mediana_atrib": 28.0,
+    "media_retrocessos": 7.9,
+    "resolvidas": 20,
+    "esgotou_orcamento": 0,
+    "tempo_med_ms": 25.632619980024174
+   },
+   "32": {
+    "mediana_atrib": 32.0,
+    "media_retrocessos": 565.05,
+    "resolvidas": 20,
+    "esgotou_orcamento": 0,
+    "tempo_med_ms": 116.87359999632463
+   },
+   "34": {
+    "mediana_atrib": 46.0,
+    "media_retrocessos": 4019.55,
+    "resolvidas": 19,
+    "esgotou_orcamento": 1,
+    "tempo_med_ms": 432.27935499162413
+   },
+   "36": {
+    "mediana_atrib": 26408.0,
+    "media_retrocessos": 25203.25,
+    "resolvidas": 10,
+    "esgotou_orcamento": 10,
+    "tempo_med_ms": 2125.361545011401
+   }
+  },
+  "BT + MRV + LCV + FC": {
+   "24": {
+    "mediana_atrib": 24.0,
+    "media_retrocessos": 0,
+    "resolvidas": 20,
+    "esgotou_orcamento": 0,
+    "tempo_med_ms": 24.961175001226366
+   },
+   "28": {
+    "mediana_atrib": 28.0,
+    "media_retrocessos": 2639.4,
+    "resolvidas": 19,
+    "esgotou_orcamento": 1,
+    "tempo_med_ms": 151.35331000201404
+   },
+   "32": {
+    "mediana_atrib": 37.0,
+    "media_retrocessos": 363.4,
+    "resolvidas": 20,
+    "esgotou_orcamento": 0,
+    "tempo_med_ms": 49.90997998393141
+   },
+   "34": {
+    "mediana_atrib": 88.0,
+    "media_retrocessos": 6231.25,
+    "resolvidas": 18,
+    "esgotou_orcamento": 2,
+    "tempo_med_ms": 188.97370000486262
+   },
+   "36": {
+    "mediana_atrib": 50001.0,
+    "media_retrocessos": 28098.25,
+    "resolvidas": 9,
+    "esgotou_orcamento": 11,
+    "tempo_med_ms": 525.7813049887773
+   }
+  },
+  "BT + MRV + LCV + MAC": {
+   "24": {
+    "mediana_atrib": 24.0,
+    "media_retrocessos": 0,
+    "resolvidas": 20,
+    "esgotou_orcamento": 0,
+    "tempo_med_ms": 89.58546001231298
+   },
+   "28": {
+    "mediana_atrib": 28.0,
+    "media_retrocessos": 1603.45,
+    "resolvidas": 20,
+    "esgotou_orcamento": 0,
+    "tempo_med_ms": 947.3897950025275
+   },
+   "32": {
+    "mediana_atrib": 33.0,
+    "media_retrocessos": 58.7,
+    "resolvidas": 20,
+    "esgotou_orcamento": 0,
+    "tempo_med_ms": 205.24981001508422
+   },
+   "34": {
+    "mediana_atrib": 41.5,
+    "media_retrocessos": 5443.75,
+    "resolvidas": 18,
+    "esgotou_orcamento": 2,
+    "tempo_med_ms": 908.4111549891531
+   },
+   "36": {
+    "mediana_atrib": 50001.0,
+    "media_retrocessos": 27792.45,
+    "resolvidas": 9,
+    "esgotou_orcamento": 11,
+    "tempo_med_ms": 4071.526715002255
+   }
+  },
+  "Mínimos conflitos": {
+   "24": {
+    "mediana_atrib": 13.5,
+    "media_retrocessos": 0,
+    "resolvidas": 20,
+    "esgotou_orcamento": 0,
+    "tempo_med_ms": 6.694985012290999
+   },
+   "28": {
+    "mediana_atrib": 21.0,
+    "media_retrocessos": 0,
+    "resolvidas": 20,
+    "esgotou_orcamento": 0,
+    "tempo_med_ms": 33.87870500446297
+   },
+   "32": {
+    "mediana_atrib": 47.5,
+    "media_retrocessos": 0,
+    "resolvidas": 20,
+    "esgotou_orcamento": 0,
+    "tempo_med_ms": 423.89385999995284
+   },
+   "34": {
+    "mediana_atrib": 102.5,
+    "media_retrocessos": 0,
+    "resolvidas": 20,
+    "esgotou_orcamento": 0,
+    "tempo_med_ms": 480.65976998768747
+   },
+   "36": {
+    "mediana_atrib": 320.0,
+    "media_retrocessos": 0,
+    "resolvidas": 20,
+    "esgotou_orcamento": 0,
+    "tempo_med_ms": 553.605314984452
+   }
+  }
+ },
+ "descartadas": {
+  "24": 0,
+  "28": 4,
+  "32": 2,
+  "34": 4,
+  "36": 25
+ },
+ "exemplo_32_aulas": {
+  "resolvida": true,
+  "atribuicoes": 32,
+  "retrocessos": 0
+ },
+ "indisp_exemplo": {
+  "0": [
+   4,
+   10
+  ],
+  "1": [
+   5,
+   6
+  ],
+  "2": [
+   1,
+   3
+  ],
+  "3": [
+   4,
+   8
+  ],
+  "4": [
+   4,
+   11
+  ],
+  "5": [
+   2,
+   4
+  ]
+ }
+}

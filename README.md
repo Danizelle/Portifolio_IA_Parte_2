@@ -21,7 +21,7 @@
 
 </div>
 
-Este repositório contém os seis projetos práticos desenvolvidos para a parte 2 do repositório de Inteligência Artificial, abordando busca informada, busca não informada, busca local, algoritmos genéticos, problemas de satisfação de restrições (CSP) e bases de conhecimento.
+Este repositório contém os seis projetos práticos desenvolvidos para a parte 2 do portifólio de Inteligência Artificial, abordando busca informada, busca não informada, busca local, algoritmos genéticos, problemas de satisfação de restrições (CSP) e bases de conhecimento.
 
 ---
 
